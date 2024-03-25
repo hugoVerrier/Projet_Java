@@ -1,4 +1,4 @@
-package Projet.src;
+package Projet_Java;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
