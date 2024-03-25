@@ -1,0 +1,44 @@
+Criète :
+Plateau 2 joueur s'affronte
+Jouer caractériser par ID,Nom,Nb PV,Capacité Special.
+Joueur ne pas pas lui meme attaquer (sauf capacité spécial)
+Chaque joueur aura un ensemble de carte
+Le jeu est tour par tour
+
+
+Cartes:
+Chaque carte invoque un monstre, les carte auront des ID,Nb PV, Attaque
+différents type de monstres :
+	classique : attaque enemie
+	protecteur : empeche les monstres d'attaquer jouer et monstres adverse
+	soigneur : ne peut pas ttaquer mais soigné monstres/joueur
+	mascottes : boost les aliés
+Chaque type de deck (ensemble de carte) aura son style
+
+
+Déroulement:
+Joueur peut poser une carte
+Joueur peut utiliser ou non capacité spécial
+Joueur et monstres peuvent attaquer une cible
+Joueur fini tour puis tour adverse
+Fin du jeu quand un Joueur KO (PV <= 0)
+
+
+Attendu Technique:
+Au moins 1 interface
+Au moins 1 heritage
+Tracer info important dans des logs (formez que vous souhaiter)(ex: « champion 1 invoque protecteur 1 », « monstre 3 tue le champion ennemi, partie terminée »)
+Au moins 5 test unitaires, 2 obligatoir :
+	verifier attaque d'un monstre sur un autres avec attaque = PV et donc que monstres meurt et disparait
+	verifier que un combat entre 2 Joueur un des deux est KO et combats s'arrete
+	les 3 autres sont libres mais sur fonctionalité imoprtante
+Respecter conventions de codage (classe en UpperCamelCase, variable en lowerCamelCase, etc)
+Commenter le code
+
+Bonus :
+Utilisation des steam et des fonction anonymes
+
+
+ATTENTION :
+Première ligne doit écrire Noms Prénoms du binome
+
