@@ -17,7 +17,7 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        System.out.println("-------------\nEliot Rineau - Hugo Verrier\n-------------\n");
+        System.out.println("-------------\nEliot Rineau -- Hugo Verrier\n-------------\n");
         launch(args);
     }
 }
